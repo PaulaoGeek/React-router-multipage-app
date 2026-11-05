@@ -1,0 +1,41 @@
+
+.header {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.menu-link:hover {
+  background-color: white;
+  color: #2563eb;
+  transform: translateY(-3px);
+}
